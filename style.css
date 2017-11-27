@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    font-family: helvetica;
+    font-size: 22px;
+   opacity:0.9;
+}
+
+body {
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+
+}
+
+div {
+    display:block;
+}
+
+.logo img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 0px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+
+}
+
+a {
+    color:seashell;
+}
+
+#mission {
+    margin:0 auto;
+    padding-top:70px;
+    width:1200px;
+    height:700px;
+    background-color:black;
+    background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
+}
+
+#mission .content {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    color:grey;
+    text-align: center;
+    padding:5px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container.locations {
+    padding-top: 5px;
+
+}
+
+
+#store{
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.item{
+    padding:5px;
+}
+
+.item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+
+#locations{
+
+    width:100%;
+    height:500px;
+    padding-top: 70px;
+    margin-top:40px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+#locations .flex-container{
+    margin: auto;
+    width: 1020px;
+    margin-top:60px;
+    margin-bottom:40px;
+}
+
+
+.location {
+    opacity: 1.0;
+    padding: 5px;
+    margin: 5px 10px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    height:250px;
+}
+
+.location h3,p{
+    margin:12px;
+}
+
+#contact {
+    padding-top: 15px;
+}
+
+#contact h2,h5 {
+    padding:15px;
+}
+
+#left {
+    text-align:left;
+}
+
+footer {
+    text-align: left;
+}
